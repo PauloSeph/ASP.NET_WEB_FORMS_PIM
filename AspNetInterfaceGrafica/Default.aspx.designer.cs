@@ -13,5 +13,23 @@ namespace AspNetInterfaceGrafica
 
     public partial class _Default
     {
+
+        /// <summary>
+        /// PanelExibirDados control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel PanelExibirDados;
+
+        /// <summary>
+        /// GridViewResult control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView GridViewResult;
     }
 }

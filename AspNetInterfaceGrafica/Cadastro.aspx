@@ -1,4 +1,4 @@
-﻿<%@ Page Title="About" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="About.aspx.cs" Inherits="AspNetInterfaceGrafica.About" %>
+﻿<%@ Page Title="Cadastro" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Cadastro.aspx.cs" Inherits="AspNetInterfaceGrafica.About" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
@@ -75,7 +75,7 @@
             </td>
             <td style="width: 287px; height: 23px; ">
                 <div style="text-align: end; margin: 3rem 1.3rem 0 0;">
-                      <asp:Button ID="salvar" runat="server" Text="Salvar" BackColor="#6666FF" BorderColor="White" BorderStyle="None" Font-Bold="True" ForeColor="White" Height="32px" Width="107px" OnClick="salvar_Click" />
+                      <asp:Button ID="salvar" runat="server" Text="Salvar" BackColor="#6666FF" BorderColor="White" BorderStyle="None" Font-Bold="True" ForeColor="White" Height="32px" Width="107px"  />
                       <asp:Button ID="cancelar" runat="server" Text="Cancelar" BackColor="White" BorderColor="Silver" BorderStyle="Solid" Font-Bold="True" ForeColor="Black" Height="32px" Width="107px" BorderWidth="1px" />
                 </div>
               
