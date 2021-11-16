@@ -10,9 +10,9 @@
     <h2>Usuários</h2>
 
     <div style="text-align: center; font-family: consolas; font-size: 1.3rem;">
-        <table class="nav-justified">
+        <table class="nav-justified" style="height: 145px">
 
-            <tr style="background-color: dimgrey; color: white; ">
+            <tr style="background-color: dimgrey; color: white;">
 
                 <td runat="server" style="height: 37px">ID</td>
                 <td runat="server" style="height: 37px">Nome</td>
@@ -22,7 +22,7 @@
                 <td runat="server" style="width: 207px; height: 37px;">Ações</td>
             </tr>
 
-        
+
             <tr style="margin-top: 50px;">
                 <td id="campo1" runat="server" style="height: 41px">1</td>
                 <td runat="server" style="height: 41px">Joaquin Augusto</td>
@@ -37,22 +37,19 @@
                 </td>
             </tr>
 
-            <tr >
-                <td runat="server" >2</td>
+            <tr>
+                <td runat="server">2</td>
                 <td runat="server">Ana Paula</td>
                 <td runat="server">222.222.222-44</td>
                 <td runat="server">(44) 2232-4444 / (44) 99999-7777</td>
                 <td runat="server">Itaberaba, 22 - Casa branca, São Paulo -SP</td>
                 <td runat="server" style="width: 207px">
-                <button>
+                    <button>
                         <a runat="server" href="~/editar">Editar</a>
                     </button>
                     <asp:Button Text="Excluir" runat="server" />
                 </td>
             </tr>
-
-
-
 
         </table>
 
